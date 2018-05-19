@@ -1,7 +1,7 @@
 <?php
 /** Staging */
-update_option( 'siteurl', 'http://pandaz.com.au' );
-update_option( 'home', 'http://pandaz.com.au' );
+define('WP_HOME','http://pandaz.com.au');
+define('WP_SITEURL','http://pandaz.com.au');
 ini_set('display_errors', 0);
 define('WP_DEBUG_DISPLAY', false);
 define('SCRIPT_DEBUG', false);
